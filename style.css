@@ -1,0 +1,142 @@
+/*descrição da font-family 
+font-family: 'Righteous', cursive;
+font-family: 'Sarala', sans-serif;
+*/
+
+/* RESET CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+}
+
+/*HEADER*/
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.5rem;
+}
+
+.header-img {
+  height: 4.5rem;
+}
+
+.header-nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.header-nav-item {
+  font-family: 'Sarala', sans-serif;
+  color: #fff2e7;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+/*MAIN*/
+.content {
+  margin-bottom: 3rem;
+  border-top: 0.4px solid #fff2e7;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.section1-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.section1-text-h1 {
+  font-family: 'Righteous', cursive;
+  color: #fff2e7;
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.section1-text-h2 {
+  font-family: 'Sarala', sans-serif;
+  color: #ecd6c4;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.section1-button {
+  width: 11.5625rem;
+  height: 4.1875rem;
+
+  background: #ecd6c4;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 1.25rem;
+  border: none;
+
+  font-family: 'Sarala', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+
+  color: #2f2325;
+}
+.section1-button:hover {
+  background-color: #2f2325;
+  color: #ecd6c4;
+}
+
+.section1-img {
+  height: 26.875rem;
+}
+
+.section2 {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.section2-text-h3 {
+  border-top: 0.4px solid #fff2e7;
+  padding-top: 4.625rem;
+
+  font-family: 'Righteous', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+
+  color: #fff2e7;
+
+  margin-bottom: 1rem;
+}
+
+.section2-p {
+  font-family: 'Sarala', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+
+  color: #ecd6c4;
+}
+
+.footer {
+  padding: 2rem;
+  border-top: 0.4px solid #fff2e7;
+}
+
+.footer-img {
+  height: 3rem;
+  display: block;
+  margin: 0 auto;
+}
